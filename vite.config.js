@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
     };
 
     if (command !== "serve") {
-        config.base = "/vite-project/";
+        config.base = "/viteproje/";
     }
 
     return config;
