@@ -1,0 +1,21 @@
+#root {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav{
+  width: 100%;
+  border-bottom: 2px solid whitesmoke;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+}
+
+form{
+  display: flex;
+}

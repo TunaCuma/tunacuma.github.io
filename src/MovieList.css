@@ -1,0 +1,8 @@
+div.MovieList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3em;
+    justify-content: space-around;
+}
+
