@@ -4,16 +4,16 @@ import "./Perks.css";
 export default function Perks() {
     return (
         <div className="Perks">
-            <Perk perkIcon="src/assets/money.png">
+            <Perk perkIcon="/src/assets/money.png">
                 Gerçekten <b>İhtiyacınız</b> varsa kredi kullanın.
             </Perk>
-            <Perk perkIcon="src/assets/calculator.png">
+            <Perk perkIcon="assets/calculator.png">
                 Aylık gelir ve giderlerinize göre <b>taksitler</b> belirleyin!
             </Perk>
-            <Perk perkIcon="src/assets/decrease.png">
+            <Perk perkIcon="decrease.png">
                 Ödeme planınızı <b>kısa vadeli</b> olarak düzenleyin!
             </Perk>
-            <Perk perkIcon="src/assets/calendar.png">
+            <Perk perkIcon="public/calendar.png">
                 Borcunuzu <b>eksiksiz ve zamanında</b> ödeyin!
             </Perk>
         </div>
