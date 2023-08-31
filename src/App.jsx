@@ -3,6 +3,8 @@ import Perks from "./Perks";
 import Certificates from "./Certificates";
 import UserThoughts from "./UserThoughts";
 import SwipeCard from "./SwipeCard";
+import img1 from "src/assets/img1.png";
+import img2 from "./assets/img2.png";
 
 function App() {
     return (
@@ -72,9 +74,9 @@ function App() {
                     </SwipeCard>
                 </UserThoughts>
                 <div className="Images">
-                    <img src=".\src\assets\img1.png" alt="" />
-                    <img src="\src\assets\img2.png" alt="" />
-                    <img src=".\assets\img1.png" alt="" />
+                    <img src={img1} alt="" />
+                    <img src={img2} alt="" />
+                    <img src={img1} alt="" />
                 </div>
             </main>
         </>
