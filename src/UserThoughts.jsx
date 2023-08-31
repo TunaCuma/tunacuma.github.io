@@ -8,7 +8,7 @@ import downRight from "./assets/downRight.png";
 const MAX_VISIBILITY = 5;
 
 export default function UserThoughts({ children }) {
-    const [active, setActive] = useState(2);
+    const [active, setActive] = useState(4);
     const count = React.Children.count(children);
 
     return (

@@ -2,7 +2,7 @@ import "./Certificates.css";
 import Certificate from "./Certificate";
 import etbis from "./assets/Etbis.jpeg";
 import isae from "./assets/isae.png";
-import iso from "./assets/iso.png";
+import iso from "./assets/Iso.png";
 import kvkk from "./assets/KVKK.jpg";
 import ssl from "./assets/ssl.png";
 
