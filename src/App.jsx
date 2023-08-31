@@ -1,5 +1,3 @@
-import { useState, useEffect, createElement } from "react";
-
 import "./App.css";
 import Perks from "./Perks";
 import Certificates from "./Certificates";
@@ -7,8 +5,6 @@ import UserThoughts from "./UserThoughts";
 import SwipeCard from "./SwipeCard";
 
 function App() {
-    const [result, setResult] = useState(null);
-
     return (
         <>
             <div className="bg">
@@ -76,9 +72,9 @@ function App() {
                     </SwipeCard>
                 </UserThoughts>
                 <div className="Images">
-                    <img src="src\assets\img1.png" alt="" />
-                    <img src="src\assets\img2.png" alt="" />
-                    <img src="src\assets\img1.png" alt="" />
+                    <img src=".\src\assets\img1.png" alt="" />
+                    <img src="\src\assets\img2.png" alt="" />
+                    <img src=".\assets\img1.png" alt="" />
                 </div>
             </main>
         </>
