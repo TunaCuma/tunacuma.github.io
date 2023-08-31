@@ -3,7 +3,7 @@ import Perks from "./Perks";
 import Certificates from "./Certificates";
 import UserThoughts from "./UserThoughts";
 import SwipeCard from "./SwipeCard";
-import img1 from "src/assets/img1.png";
+import img1 from "./assets/img1.png";
 import img2 from "./assets/img2.png";
 
 function App() {
