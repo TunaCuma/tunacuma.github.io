@@ -5,6 +5,7 @@ import UserThoughts from "./UserThoughts";
 import SwipeCard from "./SwipeCard";
 import img1 from "./assets/img1.png";
 import img2 from "./assets/img2.png";
+import avatar from "./assets/avatar1.png";
 
 function App() {
     return (
@@ -18,7 +19,7 @@ function App() {
                 <Certificates></Certificates>
                 <UserThoughts>
                     <SwipeCard
-                        avatar="src\assets\avatar1.png"
+                        avatar={avatar}
                         profileName="Selim Bey"
                         profileJob="İşletmeci"
                         postTitle='"Kredi hesaplamak artık çok kolay"'
@@ -29,7 +30,7 @@ function App() {
                         dolorum mollitia vel neque iure dolorem accusantium.
                     </SwipeCard>
                     <SwipeCard
-                        avatar="src\assets\avatar1.png"
+                        avatar={avatar}
                         profileName="Selim Bey"
                         profileJob="İşletmeci"
                         postTitle='"Kredi hesaplamak artık çok kolay"'
@@ -40,7 +41,7 @@ function App() {
                         dolorum mollitia vel neque iure dolorem accusantium.
                     </SwipeCard>
                     <SwipeCard
-                        avatar="src\assets\avatar1.png"
+                        avatar={avatar}
                         profileName="Selim Bey"
                         profileJob="İşletmeci"
                         postTitle='"Kredi hesaplamak artık çok kolay"'
@@ -51,7 +52,7 @@ function App() {
                         dolorum mollitia vel neque iure dolorem accusantium.
                     </SwipeCard>
                     <SwipeCard
-                        avatar="src\assets\avatar1.png"
+                        avatar={avatar}
                         profileName="Selim Bey"
                         profileJob="İşletmeci"
                         postTitle='"Kredi hesaplamak artık çok kolay"'
@@ -62,7 +63,7 @@ function App() {
                         dolorum mollitia vel neque iure dolorem accusantium.
                     </SwipeCard>
                     <SwipeCard
-                        avatar="src\assets\avatar1.png"
+                        avatar={avatar}
                         profileName="Selim Bey"
                         profileJob="İşletmeci"
                         postTitle='"Kredi hesaplamak artık çok kolay"'

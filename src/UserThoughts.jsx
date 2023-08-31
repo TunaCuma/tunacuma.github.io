@@ -1,7 +1,9 @@
 import "./UserThoughts.css";
-import SwipeCard from "./SwipeCard";
-import { useState, useEffect, createElement } from "react";
+import { useState } from "react";
 import React from "react";
+
+import downLeft from "./assets/downLeft.png";
+import downRight from "./assets/downRight.png";
 
 const MAX_VISIBILITY = 5;
 
@@ -47,7 +49,7 @@ export default function UserThoughts({ children }) {
                             }
                         }}
                     >
-                        <img src="src\assets\downLeft.png" alt="" />
+                        <img src={downLeft} alt="" />
                     </button>
                     <button
                         onClick={() => {
@@ -56,7 +58,7 @@ export default function UserThoughts({ children }) {
                             }
                         }}
                     >
-                        <img src="src\assets\downRight.png" alt="" />
+                        <img src={downRight} alt="" />
                     </button>
                 </div>
             </div>

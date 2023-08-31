@@ -1,24 +1,27 @@
 import "./Certificates.css";
 import Certificate from "./Certificate";
+import etbis from "./assets/Etbis.jpeg";
+import isae from "./assets/isae.png";
+import iso from "./assets/iso.png";
+import kvkk from "./assets/KVKK.jpg";
+import ssl from "./assets/ssl.png";
 
 export default function Certificates() {
     return (
         <div className="Certificates">
-            <Certificate image="src\assets\Etbis.jpeg">
+            <Certificate image={etbis}>
                 ETBİS'e Kayıtlı Doğrulanmış Site
             </Certificate>
-            <Certificate image="src\assets\isae.png">
+            <Certificate image={isae}>
                 Uluslararası Bağımsız Denetim Güvence Standartı
             </Certificate>
-            <Certificate image="src\assets\iso.png">
+            <Certificate image={iso}>
                 Bilgi Güvenliği Yönetim Sistemi Sertifikası
             </Certificate>
-            <Certificate image="src\assets\KVKK.jpg">
+            <Certificate image={kvkk}>
                 Kişisel Verilerin Korunması Kanunu
             </Certificate>
-            <Certificate image="src\assets\ssl.png">
-                Katman Güvenliği Protokolü
-            </Certificate>
+            <Certificate image={ssl}>Katman Güvenliği Protokolü</Certificate>
         </div>
     );
 }
