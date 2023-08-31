@@ -1,0 +1,17 @@
+.Perk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.0em;
+}
+
+.perkIcon{
+    height: 2.5em;
+    margin: 0.7em;
+    width: auto;
+}
+.PerkDesc{
+    font-size: small;
+    text-align: left;
+}

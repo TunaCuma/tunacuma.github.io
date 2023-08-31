@@ -1,0 +1,24 @@
+.Certificate{
+    background-color: #EBEBEB;
+    color: #07A3A0;
+    padding: 2em;
+    border-radius: 10%;
+    width: 13em;
+    height: 7em;
+    font-size:x-small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.certificateImg{
+    margin-top: 0.4em;
+    height: 5em;
+    width: 5em;
+}
+
+p{
+    padding: 0 0.5em;
+}

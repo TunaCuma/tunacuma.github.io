@@ -1,31 +1,85 @@
 import { useState, useEffect, createElement } from "react";
 
 import "./App.css";
-
-import MovieList from "./MovieList";
-import SearchBar from "./SearchBar";
-
-const baseURL = "https://search.imdbot.workers.dev/?q=";
+import Perks from "./Perks";
+import Certificates from "./Certificates";
+import UserThoughts from "./UserThoughts";
+import SwipeCard from "./SwipeCard";
 
 function App() {
     const [result, setResult] = useState(null);
 
-    const handleSubmit = async (evt) => {
-        evt.preventDefault();
-        const searchTerm = evt.target[0].value;
-
-        const response = await axios.get(baseURL + searchTerm);
-        setResult(response.data.description);
-    };
-
     return (
         <>
-            <nav>
-                <h1>📽️ Movie Listing with API example 🍿</h1>
-            </nav>
+            <div className="bg">
+                <div id="circle" className="bg"></div>
+            </div>
             <main>
-                <SearchBar handleSubmit={handleSubmit}></SearchBar>
-                <MovieList result={result} />
+                <Perks></Perks>
+                <h3>Bilgileriniz Bizimle Güvende</h3>
+                <Certificates></Certificates>
+                <UserThoughts>
+                    <SwipeCard
+                        avatar="src\assets\avatar1.png"
+                        profileName="Selim Bey"
+                        profileJob="İşletmeci"
+                        postTitle='"Kredi hesaplamak artık çok kolay"'
+                    >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio quis laborum pariatur quaerat quae fugiat
+                        autem cumque culpa ad quasi dolores praesentium, dolore
+                        dolorum mollitia vel neque iure dolorem accusantium.
+                    </SwipeCard>
+                    <SwipeCard
+                        avatar="src\assets\avatar1.png"
+                        profileName="Selim Bey"
+                        profileJob="İşletmeci"
+                        postTitle='"Kredi hesaplamak artık çok kolay"'
+                    >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio quis laborum pariatur quaerat quae fugiat
+                        autem cumque culpa ad quasi dolores praesentium, dolore
+                        dolorum mollitia vel neque iure dolorem accusantium.
+                    </SwipeCard>
+                    <SwipeCard
+                        avatar="src\assets\avatar1.png"
+                        profileName="Selim Bey"
+                        profileJob="İşletmeci"
+                        postTitle='"Kredi hesaplamak artık çok kolay"'
+                    >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio quis laborum pariatur quaerat quae fugiat
+                        autem cumque culpa ad quasi dolores praesentium, dolore
+                        dolorum mollitia vel neque iure dolorem accusantium.
+                    </SwipeCard>
+                    <SwipeCard
+                        avatar="src\assets\avatar1.png"
+                        profileName="Selim Bey"
+                        profileJob="İşletmeci"
+                        postTitle='"Kredi hesaplamak artık çok kolay"'
+                    >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio quis laborum pariatur quaerat quae fugiat
+                        autem cumque culpa ad quasi dolores praesentium, dolore
+                        dolorum mollitia vel neque iure dolorem accusantium.
+                    </SwipeCard>
+                    <SwipeCard
+                        avatar="src\assets\avatar1.png"
+                        profileName="Selim Bey"
+                        profileJob="İşletmeci"
+                        postTitle='"Kredi hesaplamak artık çok kolay"'
+                    >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio quis laborum pariatur quaerat quae fugiat
+                        autem cumque culpa ad quasi dolores praesentium, dolore
+                        dolorum mollitia vel neque iure dolorem accusantium.
+                    </SwipeCard>
+                </UserThoughts>
+                <div className="Images">
+                    <img src="src\assets\img1.png" alt="" />
+                    <img src="src\assets\img2.png" alt="" />
+                    <img src="src\assets\img1.png" alt="" />
+                </div>
             </main>
         </>
     );
