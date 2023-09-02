@@ -69,7 +69,9 @@ export default function UserThoughts({ children }) {
                 ))}
             </div>
             <div id="LabelandButtonsPanel">
-                <h2>KULLANICILARIMIZ HAKKIMIZDA NELER DÜŞÜNÜYOR?</h2>
+                <h2 className="smallScreenOnly">
+                    KULLANICILARIMIZ HAKKIMIZDA NELER DÜŞÜNÜYOR?
+                </h2>
                 <div className="SwipeButtons">
                     <button
                         onClick={() => {

@@ -82,5 +82,13 @@ h3 {
         margin-bottom: 3rem;
     }
 }
-@media screen and (max-width: 470px) {
+@media screen and (min-width: 1480px) {
+    .bigScreenOnly {
+        display: none;
+    }
+}
+@media screen and (max-width: 1480px) {
+    .bigScreenOnly {
+        display: block;
+    }
 }

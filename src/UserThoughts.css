@@ -66,7 +66,7 @@ h2 {
 
 @media screen and (max-width: 1480px) {
     .UserThoughts {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         align-content: center;
         padding-left: 0;
@@ -90,21 +90,14 @@ h2 {
     }
     #LabelandButtonsPanel {
         width: 80%;
-        height: 10rem;
-        margin-bottom: 2rem;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 1308px) {
-    #LabelandButtonsPanel {
-        margin-bottom: 5rem;
-    }
 }
 
 @media screen and (max-width: 780px) {
-    #LabelandButtonsPanel {
-        margin-bottom: 8rem;
-    }
     #SwipeCardsPanel {
         font-size: 2vw;
         height: 25rem;
@@ -112,9 +105,6 @@ h2 {
 }
 
 @media screen and (max-width: 580px) {
-    #LabelandButtonsPanel {
-        margin-bottom: 8rem;
-    }
     #SwipeCardsPanel {
         font-size: 2.5vw;
     }
@@ -124,13 +114,31 @@ h2 {
     h2 {
         font-size: 1.5em;
     }
-    #LabelandButtonsPanel {
-        margin-bottom: 4rem;
+    #SwipeCardsPanel {
+        font-size: 3vw;
+        height: 20rem;
     }
 }
 
 @media screen and (max-width: 365px) {
     h2 {
         font-size: 1.3em;
+    }
+    #SwipeCardsPanel {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .smallScreenOnly {
+        display: block;
+    }
+}
+@media screen and (max-width: 1480px) {
+    .smallScreenOnly {
+        display: none;
+    }
+    #LabelandButtonsPanel {
+        margin-top: 5vw;
     }
 }

@@ -17,6 +17,9 @@ function App() {
                 <Perks></Perks>
                 <h3>Bilgileriniz Bizimle Güvende</h3>
                 <Certificates></Certificates>
+                <h2 className="bigScreenOnly">
+                    KULLANICILARIMIZ HAKKIMIZDA NELER DÜŞÜNÜYOR?
+                </h2>
                 <UserThoughts>
                     <SwipeCard
                         avatar={avatar}
