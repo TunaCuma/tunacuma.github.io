@@ -1,7 +1,13 @@
-.Certificates{
+.Certificates {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
     padding: 0 1.2em;
+}
+
+@media screen and (max-width: 800px) {
+    .Certificates {
+        flex-wrap: wrap;
+    }
 }

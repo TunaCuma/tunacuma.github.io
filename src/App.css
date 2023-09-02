@@ -1,65 +1,71 @@
 #root {
-  width: 100vw;
-  text-align: center;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 100vw;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-nav{
-  width: 100%;
-  border-bottom: 2px solid whitesmoke;
+nav {
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
 }
 
-main{
-  display: flex;
-  width: 65%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
+main {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
 }
 
-form{
-  display: flex;
+form {
+    display: flex;
 }
 
 #circle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vw;
-  background: #f1f1f1;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  box-shadow: 0 6.5px 17px 3px #dddddd;
-  transform: translateY(-45vw);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    background: #f1f1f1;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 6.5px 17px 3px #dddddd;
+    transform: translateY(-45vw);
 }
 
-#blank{
-  height: 45vw;
+#blank {
+    height: 45vw;
 }
 
-h3{
-  color: #00cdc9;
-  border-bottom: 5px solid #00cdc9;
-  padding: 0 0.5em;
-  font-size: medium;
+h3 {
+    color: #00cdc9;
+    border-bottom: 5px solid #00cdc9;
+    padding: 0 0.5em;
+    font-size: medium;
 }
 
-.Images{
-  margin-top: 7em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.Images {
+    margin-top: 7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.Images img{
-  width: 30%;
-  height: auto;
+.Images img {
+    width: 30%;
+    height: auto;
+}
+
+@media screen and (max-width: 1480px) {
+    main {
+        width: 80%;
+    }
 }

@@ -1,6 +1,16 @@
-.Perks{
+.Perks {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+}
+
+@media screen and (max-width: 1180px) {
+    .Perks {
+        width: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }

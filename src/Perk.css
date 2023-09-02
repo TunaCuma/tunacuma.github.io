@@ -1,17 +1,37 @@
-.Perk{
+.Perk {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1.0em;
+    margin: 1em;
 }
 
-.perkIcon{
+.perkIcon {
     height: 2.5em;
     margin: 0.7em;
     width: auto;
 }
-.PerkDesc{
+.PerkDesc {
     font-size: small;
     text-align: left;
+}
+
+@media screen and (max-width: 1180px) {
+    .Perk {
+        justify-content: center;
+        margin: 0.2em 1em;
+    }
+    .PerkDesc {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .Perk {
+        justify-content: center;
+        margin: 0.2em 1em;
+    }
+    .PerkDesc {
+        font-size: medium;
+    }
 }

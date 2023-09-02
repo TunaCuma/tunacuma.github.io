@@ -22,7 +22,7 @@ export default function UserThoughts({ children }) {
                             "--offset": (active - i) / 3,
                             "--direction": Math.sign(active - i),
                             "--abs-offset": Math.abs(active - i) / 3,
-                            "pointer-events": active === i ? "auto" : "none",
+                            pointerEvents: active === i ? "auto" : "none",
                             opacity: i - 1 > active ? "0" : "1",
                             display:
                                 Math.abs(active - i) > MAX_VISIBILITY
@@ -35,10 +35,7 @@ export default function UserThoughts({ children }) {
                 ))}
             </div>
             <div id="LabelandButtonsPanel">
-                <h2>
-                    KULLANICILARIMIZ HAKKIMIZDA <br />
-                    NELER DÜŞÜNÜYOR?
-                </h2>
+                <h2>KULLANICILARIMIZ HAKKIMIZDA NELER DÜŞÜNÜYOR?</h2>
                 <div className="SwipeButtons">
                     <button
                         onClick={() => {
