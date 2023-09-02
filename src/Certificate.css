@@ -23,9 +23,14 @@
 p {
     padding: 0 0.5em;
 }
-
+@media screen and (max-width: 790px) {
+    .Certificate {
+        font-size: 8px;
+    }
+}
 @media screen and (max-width: 530px) {
     .Certificate {
+        font-size: 7px;
         width: 8em;
         margin: 1em;
     }

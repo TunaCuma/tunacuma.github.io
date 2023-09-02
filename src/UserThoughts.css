@@ -79,9 +79,11 @@ h2 {
         left: 0;
         right: 0;
         margin: auto;
+        align-items: center;
     }
     #SwipeCardsPanel {
         width: 100%;
+        font-size: 1.5vw;
     }
     .SwipeButtons {
         justify-content: center;
@@ -89,8 +91,30 @@ h2 {
     #LabelandButtonsPanel {
         width: 80%;
         height: 10rem;
+        margin-bottom: 2rem;
     }
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1308px) {
+    #LabelandButtonsPanel {
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    #LabelandButtonsPanel {
+        margin-bottom: 8rem;
+    }
+    #SwipeCardsPanel {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #LabelandButtonsPanel {
+        margin-bottom: 8rem;
+    }
+    #SwipeCardsPanel {
+        font-size: 2.5vw;
+    }
 }
