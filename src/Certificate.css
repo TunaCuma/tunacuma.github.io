@@ -28,10 +28,16 @@ p {
         font-size: 8px;
     }
 }
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 630px) {
     .Certificate {
         font-size: 7px;
         width: 8em;
         margin: 1em;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .Certificate {
+        flex-direction: row;
     }
 }

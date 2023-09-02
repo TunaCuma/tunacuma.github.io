@@ -6,7 +6,8 @@
     padding: 0 1.2em;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 510px) {
     .Certificates {
+        flex-wrap: wrap;
     }
 }

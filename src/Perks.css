@@ -5,13 +5,12 @@
     width: 100%;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 860px) {
     .Perks {
         width: auto;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+
         margin: 2rem 0;
     }
 }
