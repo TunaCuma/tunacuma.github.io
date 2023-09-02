@@ -101,12 +101,13 @@ h2 {
     }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 780px) {
     #LabelandButtonsPanel {
         margin-bottom: 8rem;
     }
     #SwipeCardsPanel {
         font-size: 2vw;
+        height: 25rem;
     }
 }
 

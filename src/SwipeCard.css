@@ -60,3 +60,10 @@ p {
     transition: all 0.3s linear;
     opacity: var(--active);
 }
+
+@media screen and (max-width: 780px) {
+    .SwipeCard {
+        height: 27em;
+        width: 20em;
+    }
+}
