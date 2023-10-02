@@ -117,6 +117,19 @@ const DownTriangle = styled.div`
     margin-right: 0.5em;
     margin-left: 1em;
 `;
+
+const UpTriangle = styled.div`
+    position: relative;
+    content: "";
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    border-right: 0.2em solid #0d316f;
+    border-top: 0.2em solid #0d316f;
+    transform: rotate(-45deg);
+    margin-right: 0.5em;
+    margin-left: 1em;
+`;
 const ShowMoreButton = styled.a`
     align-self: flex-start;
     margin-top: 3px;
@@ -145,6 +158,9 @@ export default function LogoGrid() {
     const handleShowMore = () => {
         setDisplayCount(logos.length); // Show all logos
     };
+    const handleShowLess = () => {
+        setDisplayCount(9); // Show all logos
+    };
 
     return (
         <LogoGridContainer>
@@ -162,6 +178,12 @@ export default function LogoGrid() {
                 <ShowMoreButton onClick={handleShowMore}>
                     Daha Fazla Göster
                     <DownTriangle></DownTriangle>
+                </ShowMoreButton>
+            )}
+            {displayCount == logos.length && (
+                <ShowMoreButton onClick={handleShowLess}>
+                    Daha Az Göster
+                    <UpTriangle></UpTriangle>
                 </ShowMoreButton>
             )}
         </LogoGridContainer>
