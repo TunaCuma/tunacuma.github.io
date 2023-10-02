@@ -94,9 +94,6 @@ h2 {
     }
 }
 
-@media screen and (max-width: 1308px) {
-}
-
 @media screen and (max-width: 780px) {
     #SwipeCardsPanel {
         font-size: 2vw;
